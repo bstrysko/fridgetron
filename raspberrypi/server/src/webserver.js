@@ -10,6 +10,7 @@ function WebServer(port, storage){
   app.get('/api', function(req, res){
     var r = "";
     r += "<h1>Fridgetron API</h1><br/>";
+    r += "/api/ids<br/>"
     r += "/api/users<br/>";
     r += "/api/users/byUsername/:username<br/>";
     r += "/api/transactions<br/>";
